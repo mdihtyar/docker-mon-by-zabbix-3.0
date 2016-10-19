@@ -42,7 +42,7 @@ def getValue(string):
 
 search_for=sys.argv[1]
 
-cmd="docker info"
+cmd="docker info 2> /dev/null"
 filename="/tmp/zabbix-docker-info.out"
 
 strings = local_run_command(cmd,filename)
