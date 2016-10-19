@@ -19,7 +19,7 @@ zabbix ALL = NOPASSWD: /usr/local/bin/zabbix-docker*.py
 EOF
 #
 mkdir /root/.docker
-echo "" > /root/.docker/config.json
+echo "{}" > /root/.docker/config.json
 #
 # tell the user some stuff
 echo "Python scripts copied to /usr/local/bin"
