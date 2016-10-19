@@ -1,6 +1,8 @@
 # docker-mon-by-zabbix-3.0
 This is a copy of repository *https://github.com/rpsedlak/zabbix-docker* with some modification for working with Zabbix 3.0
 
+The original repository is https://github.com/rpsedlak/zabbix-docker
+
 ###Usage
 It is used for monitoring docker host, all created docker containers, how much resources they retrieve for their work. 
 
