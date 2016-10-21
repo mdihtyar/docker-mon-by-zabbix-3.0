@@ -4,6 +4,8 @@ This is a copy of repository https://github.com/rpsedlak/zabbix-docker with some
 ###Usage
 It is used for monitoring docker host, all created docker containers, how much resources they retrieve for their work. 
 
+Also this repository contains template for wide docker monitoring (it is so hard for Zabbix and Agent, if there are a lot of docker containers) and a simple template with restricted count of items and triggers.
+
 ###How you can install this project to your Zabbix
 
 I tested this project using Zabbix 3.0 and Ubuntu 14.04.
