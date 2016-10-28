@@ -17,3 +17,5 @@ To use you should:
 1. Import **ZabbixDockerTemplate.xml** template into your Zabbix server
 1. Assing your docker host with this template and afterwards Zabbix will be gather all statistics data from your docker host, including docker conatiners
 
+###Simple Zabbix-API gateway
+This gateway is a simple php script that executes zabbix_sender to send some data to your Zabbix server (items should be type as Zabbix trapper to receive data).
