@@ -64,7 +64,7 @@ def lmem(data):
 
 def pmem(data):
 	pdata=data.split('/')[1].split()
-	pmem_data=pdata[2].split('%')[0]
+	pmem_data=pdata[1].split('%')[0]
 	return pmem_data
 
 def inet(data):
