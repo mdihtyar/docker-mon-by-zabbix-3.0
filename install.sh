@@ -26,6 +26,5 @@ echo "Python scripts copied to /usr/local/bin"
 echo "zabbix-agent configuration files copied to $CONFIG_PATH"
 echo "Created a sudoers rule for zabbix user"
 echo ""
-echo "Restarting your Zabbix agent"
-/etc/init.d/zabbix-agent restart
+
 
